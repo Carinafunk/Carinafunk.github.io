@@ -4,9 +4,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Carina Funk</title>
+    <title>Andy L</title>
     <link rel="stylesheet" type="text/css" href="reset.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
   </head>
@@ -16,19 +16,42 @@
     <div class="container">
 
       <header>
-        <div class="wrapper">
-          <h1>Carina Funk</h1>
-            <p class="bio">  
-              I'm a Marketing Management major and Celsius energy drink addict. This site collects some of my digital media-related coursework.
-            </p>
-          <div class="buttonBox">
-            <a class="myButton" href="#projects">Go</a>
-          </div>
-        </div>
-        </header>
-         
+      <div class="wrapper">
+       <h1>Carina Funk</h1>
+    <p class="bio">"I'm a Marketing Management Major. This site collects some of my digital media-related coursework."
+    </p>
+  <div class="buttonBox">
+    <a class="myButton" href="#projects">Go</a>
+    .buttonBox {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
 
-        <main id="projects">
+.myButton {
+  border-radius: 28px;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 16px 31px;
+  text-decoration: none;
+  margin: 1.69em auto;
+}
+
+.myButton:hover {
+    background-color:#e69708;
+}
+
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+  </div>
+</div>
+        </header>
+
+      <main id="projects">
         <div class="recipe a">
           <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/image-1.png" />
           <h2>CHOCOLATE MOUSSE</h2>
